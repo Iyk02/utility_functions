@@ -40,7 +40,6 @@ def main(json_file, mask_output_folder):
     if not os.path.exists(mask_output_folder):
         os.makedirs(mask_output_folder)
 
-
     for img in images:
         create_mask(img, annotations, mask_output_folder)
 
